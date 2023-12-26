@@ -1,0 +1,19 @@
+.container {
+    max-width: 30rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.footerApp p {
+    color: var(--gray-100);
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .container {
+        max-width: 20rem;
+    }
+}
